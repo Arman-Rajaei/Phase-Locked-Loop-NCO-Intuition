@@ -8,15 +8,9 @@ Its goal is not just matching frequency, but matching **phase**.
 
 When the phase is aligned, the signals are aligned in time.
 
-PLL applications include:
+![PLL Block Diagram](Figures/PLL_loop.png)
 
-- clock recovery in communication systems
-- carrier synchronization
-- frequency synthesis
-- jitter reduction
-- timing alignment in digital receivers
-
-In an analog VCO based PLL, the system corrects phase error by slightly speeding up or slowing down the oscillator.  
+In an analog VCO-based PLL, the system corrects phase error by slightly speeding up or slowing down the oscillator.  
 The oscillator rotates faster or slower until the input and output signals line up in time.
 
 So the PLL does not jump the waveform forward.  
