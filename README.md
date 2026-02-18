@@ -4,11 +4,13 @@
 
 A Phase-Locked Loop (PLL) is a feedback control system that forces a generated signal to synchronize with a reference signal.
 
+<p align="center">
+  <img src="Figures/PLL_loop.png" width="600">
+</p>
+
 Its goal is not just matching frequency, but matching **phase**.
 
 When the phase is aligned, the signals are aligned in time.
-
-![PLL Block Diagram](Figures/PLL_loop.png)
 
 In an analog VCO-based PLL, the system corrects phase error by slightly speeding up or slowing down the oscillator.  
 The oscillator rotates faster or slower until the input and output signals line up in time.
@@ -76,7 +78,9 @@ This gives a known ground truth phase.
 
 **Input signal**
 
-![Input Signal](Figures/input_signal.png)
+<p align="center">
+  <img src="Figures/input_signal.png" width="400">
+</p>
 
 ---
 
@@ -157,12 +161,15 @@ The PLL locks by controlling speed, not position.
 
 **NCO frequency pulled toward input**
 
-![Frequency Tracking](Figures/frequency_tracking.png)
+<p align="center">
+  <img src="Figures/frequency_tracking.png" width="400">
+</p>
 
 **Input vs NCO after lock**
 
-![Signal Lock](Figures/signal_lock.png)
-
+<p align="center">
+  <img src="Figures/signal_lock.png" width="400">
+</p>
 ---
 
 ## Key Insight
@@ -175,6 +182,6 @@ Because phase is the integral of frequency, eliminating phase error automaticall
 
 ---
 
-## Author
+## 🧑‍💻 Author
 
-Arman Rajaei
+**Arman Rajaei**
