@@ -1,4 +1,4 @@
-# Simple MATLAB Phase-Locked Loop (PLL) Demonstration
+# Phase-Locked Loop (PLL) Demonstration
 
 ## What is a PLL?
 
