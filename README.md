@@ -1,1 +1,1 @@
-# Phase-Locked-Loop-NCO-Intuition
+# Phase Locked Loop NCO Intuition
